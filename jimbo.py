@@ -242,11 +242,11 @@ def analyze(statement):
 
 
 def main():
-    print "Hello. What is on your mind today?"
+    print ("Hello. What is on your mind today?")
 
     while True:
-        statement = raw_input("> ")
-        print analyze(statement)
+        statement = input("> ")
+        print (analyze(statement))
 
         if statement == "quit":
             break
